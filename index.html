@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Con mucho amor para ti</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">
+            <p>Mi Lia hermosa, no sé si el 14 de febrero es el día perfecto para decirlo, pero sé que cada día contigo lo es. No necesito una fecha para querer que seas mi San Valentín, porque en mi corazón lo eres siempre...</p>
+        </div>
+        <br>
+        <br>
+        <a href="https://open.spotify.com/track/5UnFF8BFETkYauRl4s81oA?si=wlJnzFmYR7GdzWZogMy3ow " class="neon-link">Dar clic aquí, Te amo!</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+    <script>
+        setInterval(() => {
+            confetti({
+                particleCount: 100,
+                spread: 60,
+                origin: { x: 0.5, y: 0.5 }
+            });
+        }, 2000); 
+    </script>
+</body>
+</html>
